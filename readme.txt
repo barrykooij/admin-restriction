@@ -28,6 +28,10 @@ The administrator created at WordPress installation (administrator with id 1) wi
 
 == Changelog ==
 
+= 1.1.1 =
+* Added WordPress 3.5 support.
+* Small meta information changes.
+
 = 1.1.0 =
 * Fixed hiding plugin activation link bug.
 * Added a method that prevents users from trying to activate/deactivate plugins through direct URL entry.
