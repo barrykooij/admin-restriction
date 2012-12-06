@@ -3,8 +3,8 @@ Contributors: barrykooij
 Donate link: 
 Tags: WordPress Core update, plugin install, plugin update, plugin delete
 Requires at least: 3.0
-Tested up to: 3.4.1
-Stable tag: 1.1.0
+Tested up to: 3.5
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,8 +24,6 @@ Disables updating the WordPress Core plus plugin and theme installation, updatin
 = What users will be able to upgrade core, theme and plugin modifications? =
 
 The administrator created at WordPress installation (administrator with id 1) will be the only user that is able to do Core, plugin and theme installation, updating and removal.
-
-You have to be an Administrator to see the "What The File" option.
 
 == Screenshots ==
 
