@@ -25,19 +25,10 @@ Disables updating the WordPress Core plus plugin and theme installation, updatin
 
 The administrator created at WordPress installation (administrator with id 1) will be the only user that is able to do Core, plugin and theme installation, updating and removal.
 
-== Screenshots ==
-
-
 
 == Changelog ==
 
 = 1.1.0 =
 * Fixed hiding plugin activation link bug.
 * Added a method that prevents users from trying to activate/deactivate plugins through direct URL entry.
-
-== Upgrade notice ==
-
-
-
-== Arbitrary section 1 ==
 
