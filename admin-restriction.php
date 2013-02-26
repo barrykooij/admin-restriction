@@ -3,7 +3,7 @@
 Plugin Name: Admin Restriction
 Plugin URI: http://www.barrykooij.com/admin-restriction/
 Description: Disables updating the WordPress Core plus plugin and theme installation, updating and removal.
-Version: 1.1.1
+Version: 1.1.2
 Author: Barry Kooij
 Author URI: http://www.barrykooij.com/
 */
