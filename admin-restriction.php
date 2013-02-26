@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Admin Restriction
-Plugin URI: http://www.barrykooij.nl/admin-restriction
+Plugin URI: http://www.barrykooij.com/admin-restriction/
 Description: Disables updating the WordPress Core plus plugin and theme installation, updating and removal.
 Version: 1.1.1
 Author: Barry Kooij
-Author URI: http://www.barrykooij.nl/
+Author URI: http://www.barrykooij.com/
 */
 require_once('ARHooks.php');
 class AdminRestriction 
