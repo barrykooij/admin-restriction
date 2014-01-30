@@ -19,7 +19,9 @@ class ARHooks
     get_currentuserinfo();
     if($current_user->ID != 1)
     {
-      define('DISALLOW_FILE_MODS',true);
+	  if( ! defined( 'DISALLOW_FILE_MODS' ) {
+        define('DISALLOW_FILE_MODS',true);
+      }
     }
   }
   

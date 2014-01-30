@@ -15,7 +15,7 @@ class AdminRestriction
     $this->setup();
   }
   
-  public static function setup()
+  public function setup()
   {
     add_action('admin_menu', array(ARHooks::get_instance(), 'disallow_editor'));
     add_filter('pre_site_transient_update_core', array(ARHooks::get_instance(), 'disallow_core_update'));
