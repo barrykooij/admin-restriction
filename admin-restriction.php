@@ -19,6 +19,7 @@ class Admin_Restriction {
 		add_filter( 'pre_site_transient_update_core', array( AR_Hooks::get_instance(), 'disallow_core_update' ) );
 		add_filter( 'plugin_action_links', array( AR_Hooks::get_instance(), 'hide_plugin_controls' ), 10, 4 );
 		add_filter( 'user_has_cap', array( AR_Hooks::get_instance(), 'catch_plugin_cap' ), 10, 3 );
+		add_filter( 'bulk_actions-plugins', array( AR_Hooks::get_instance(), 'remove_bulk_actions' ) );
 	}
 
 }
